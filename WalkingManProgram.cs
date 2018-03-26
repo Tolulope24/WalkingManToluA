@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace WalkingManToluA
 {
-    static class Program
+    static class WalkingManProgram
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace WalkingManToluA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WalkingManForm());
+            Application.Run(new frmWalkingMan());
         }
     }
 }
